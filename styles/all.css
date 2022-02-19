@@ -1,0 +1,22 @@
+.navbar li{
+  float: left;
+  display:block;
+  margin:0;
+  padding:0;
+  list-style-type: none;
+  overflow:hidden;
+  background-color:#CF4520;
+  border-right: 1px solid #bbb;
+}
+
+.navbar a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+h1{
+  padding-top:70px;
+}
