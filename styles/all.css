@@ -1,22 +1,37 @@
-.navbar li{
+#navbar {
+  width: 100%;
   float: left;
-  display:block;
-  margin:0;
-  padding:0;
-  list-style-type: none;
-  overflow:hidden;
-  background-color:#CF4520;
-  border-right: 1px solid #bbb;
+  margin: 0 0 1em 0;
+  padding: 0;
+  background-color: #E7751D;
+  border-bottom: 1px solid #ccc;
 }
-
-.navbar a{
+#navbar ul {
+  list-style: none;
+  width: 800px;
+  margin: 0 auto;
+  padding: 0;
+}
+#navbar li {
+  float: left;
+}
+#navbar li a {
   display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+  padding: 8px 15px;
   text-decoration: none;
+  font-weight: bold;
+  color: #DDDDDD;
+  border-right: 1px solid #ccc;
+}
+#navbar li:first-child a {
+  border-left: 1px solid #ccc;
+}
+#navbar li a:hover {
+  color: #c00;
+  background-color:#DDDDDD;
 }
 
 h1{
-  padding-top:70px;
+  text-align:center;
+  color:#CF4520;
 }
