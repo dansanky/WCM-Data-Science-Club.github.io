@@ -5,27 +5,29 @@
   padding: 0;
   background-color: #E7751D;
   border-bottom: 1px solid #ccc;
+  color: #DDDDDD;
 }
 #navbar ul {
   list-style: none;
   width: 800px;
   margin: 0 auto;
   padding: 0;
+  text-align:center;
 }
 #navbar li {
   float: left;
 }
+
 #navbar li a {
   display: block;
   padding: 8px 15px;
   text-decoration: none;
   font-weight: bold;
+  background-color: #E7751D;
   color: #DDDDDD;
   border-right: 1px solid #ccc;
 }
-#navbar li:first-child a {
-  border-left: 1px solid #ccc;
-}
+
 #navbar li a:hover {
   color: #c00;
   background-color:#DDDDDD;
