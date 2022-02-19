@@ -1,39 +1,31 @@
-#navbar {
-  width: 100%;
-  float: left;
-  margin: 0 0 1em 0;
-  padding: 0;
-  background-color: #E7751D;
-  border-bottom: 1px solid #ccc;
-  color: #DDDDDD;
-}
 #navbar ul {
-  list-style: none;
-  width: 800px;
-  margin: 0 auto;
+  list-style-type: none;
+  margin: 0;
   padding: 0;
-  text-align:center;
+  overflow: hidden;
+  background-color: #333;
 }
+
 #navbar li {
   float: left;
 }
 
 #navbar li a {
   display: block;
-  padding: 8px 15px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  font-weight: bold;
-  background-color: #E7751D;
-  color: #DDDDDD;
-  border-right: 1px solid #ccc;
 }
 
 #navbar li a:hover {
-  color: #c00;
-  background-color:#DDDDDD;
+  background-color: #111;
 }
+
 
 h1{
   text-align:center;
-  color:#CF4520;
+  color: #CF4520;
+  font-family: 'Abril Fatface', serif;
+  font-size: 46px;
 }
