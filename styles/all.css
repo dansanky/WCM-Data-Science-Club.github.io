@@ -37,6 +37,14 @@ h1{
   font-size: 46px;
 }
 
+img{
+  margin:auto;
+}
+
+p{
+  margin:15px;
+}
+
 iframe{
   text-align:center;
 }
